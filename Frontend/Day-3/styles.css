@@ -1,0 +1,76 @@
+.out{
+    border-left-width:130px ;
+    border-left-color: gray;
+    border-left-style: solid;
+}
+.name{
+    font-size: 45px;
+    padding-left: 15px;
+    padding-top: 2px;
+    margin-bottom: -20px;
+}
+.stud{
+    font-size:25px;
+    padding-left: 10px;
+}
+.loc{
+    padding-top: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+.shift{
+    padding-left: 600px;
+    
+}
+.txt{
+    font-size:20px;
+    padding-bottom: -30px;
+    padding-left: 5px;
+}
+.abt{
+    padding-left: 75px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size:20px;
+    padding-right: 250px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.shi{
+    padding-left: 10px;
+}
+.text{
+    font-size: 25px;
+    padding-bottom:5px;
+}
+.line{
+    padding-top: -10px;
+}
+.image{
+    padding-top:10px;
+    padding-bottom: -10px;
+}
+.skill{
+    padding-left: 300px;
+    font-size:20px
+}
+.skill1{
+    padding-left: 100px;
+}
+.skill2{
+    padding-left: 76px;
+}
+.skill3{
+    padding-left: 81px;
+}
+.skill5{
+    padding-left: 97px;
+}
+.skill4{
+    padding-left: 120px;
+}
+.skill6{
+    padding-left: 69px;
+}
+.lang{
+    padding-left: 86px;
+}
