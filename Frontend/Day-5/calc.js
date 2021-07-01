@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const calculateAdd = () => {
   const num1 = document.getElementById("number1").value;
   const num2 = document.getElementById("number2").value;
@@ -40,4 +41,48 @@ const calculateDivide = () => {
 document.querySelector("#add").addEventListener("click", calculateAdd);
 document.querySelector("#subs").addEventListener("click", calculateSubs);
 document.querySelector("#multi").addEventListener("click", calculateMulti);
+=======
+const calculateAdd = () => {
+  const num1 = document.getElementById("number1").value;
+  const num2 = document.getElementById("number2").value;
+
+  const add = parseInt(num1) + parseInt(num2);
+  const subs = parseInt(num1) - parseInt(num2);
+  const multi = parseInt(num1) * parseInt(num2);
+  const divide = parseInt(num1) / parseInt(num2);
+
+  document.querySelector("#answer").innerHTML = add;
+};
+
+const calculateSubs = () => {
+  const num1 = document.getElementById("number1").value;
+  const num2 = document.getElementById("number2").value;
+
+  const subs = parseInt(num1) - parseInt(num2);
+
+  document.querySelector("#answer").innerHTML = subs;
+};
+
+const calculateMulti = () => {
+  const num1 = document.getElementById("number1").value;
+  const num2 = document.getElementById("number2").value;
+
+  const multi = parseInt(num1) * parseInt(num2);
+
+  document.querySelector("#answer").innerHTML = multi;
+};
+
+const calculateDivide = () => {
+  const num1 = document.getElementById("number1").value;
+  const num2 = document.getElementById("number2").value;
+
+  const divide = parseInt(num1) / parseInt(num2);
+
+  document.querySelector("#answer").innerHTML = divide;
+};
+
+document.querySelector("#add").addEventListener("click", calculateAdd);
+document.querySelector("#subs").addEventListener("click", calculateSubs);
+document.querySelector("#multi").addEventListener("click", calculateMulti);
+>>>>>>> 43322defd87d0a771685626a166c54542a662f3a
 document.querySelector("#divide").addEventListener("click", calculateDivide);

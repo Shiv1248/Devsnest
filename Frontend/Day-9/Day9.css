@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
   margin: 0;
   padding: 0;
@@ -50,4 +51,58 @@ body {
   color: white;
   font-size: 1.5em;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightslategray;
+}
+
+.grid {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.items {
+  width: 16.66666666666%;
+  height: 100px;
+  background-color: darkslategray;
+  box-shadow:
+  2px 0 0 0 white,
+  0 2px 0 0 white,
+  2px 2px 0 0 white,
+  2px 0 0 0 white inset,
+  0 2px 0 0 white inset;
+}
+
+.clicked {
+  background-color: whitesmoke;
+  box-shadow:
+      2px 0 0 0 #888,
+      0 2px 0 0 #888,
+      2px 2px 0 0 #888,
+      2px 0 0 0 #888 inset,
+      0 2px 0 0 #888 inset;
+}
+
+
+.seats {
+  margin: auto;
+  width: 80vw;
+  min-width: 300px;
+}
+
+.status {
+  text-align: center;
+  margin: 50px 0;
+  color: white;
+  font-size: 1.5em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+>>>>>>> 43322defd87d0a771685626a166c54542a662f3a
 }
