@@ -1,0 +1,41 @@
+.App {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  color: whitesmoke;
+  background: rgb(109, 109, 228);
+  padding: 2em;
+  border-radius: 28px;
+  width:55%;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.whp {
+  display: flex;
+  width: 100%;
+  /* max-width: 500px; */
+  justify-content: space-evenly;
+  
+}
+.simple {
+  text-align: center;
+}
+
+.whp h2 {
+  margin: 0 10px;
+}
